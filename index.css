@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1c1a27;
+    font-family: auto;
+}
+
+div.main {
+    margin: auto;
+    max-width: 85%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+h1 {
+    color: #f1aa3f;
+    text-transform: uppercase;
+}
+
+p {
+    color: #939190;
+}
+
+/* ///////////////////// */
+.colored-div {
+    background-color: #53687c;
+}
+
+.colored-div>p {
+    text-align: left;
+    color: white;
+}
+
+div.row>div {
+    padding: 15px 0;
+    border: 1px black solid;
+}
+
+/* edit bootsrape code --> padding-right: calc(var(--bs-gutter-x) * .5); */
+div.row>img {
+    padding-right: 0%;
+    padding-left: 0%;
+    border: 1px black solid;
+}
